@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Календарь</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="timer">
+            <span class="timer__time">24:00:00</span>
+        </div>
+        <div class="calendar-wrapper">
+            <button id="btnPrev" type="button">Предыдущий</button>
+            <button id="btnNext" type="button">Следующий</button>
+            <div id="divCal"></div>
+        </div>
+        <form type="submit" class="todolist">
+            <h3 class="todolist__title">Список задач <span class="todo-date"></span>
+            </h3>
+            <div class="todolist__row">
+                <input type="text" placeholder="Введите задачу" class="todolist__input todo-value">
+            </div>
+            <div class="todolist__row">
+                <input type="time" class="todolist__input todo-time">
+                <button type="submit" class="todolist__add addbtn">Добавить</button>
+            </div>
+            <ul class="list">
+            </ul>
+        </form>
+    </div>
+
+</body>
+
+</html>

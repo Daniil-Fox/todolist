@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ch-day {
+    background-color: blue;
+    color: #fff !important;
+}
+
+.timer {
+    grid-column: 2 span;
+    padding: 50px;
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
